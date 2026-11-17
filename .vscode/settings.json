@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "files.exclude": { "dist": true, "dist-single": true },
+  "search.exclude": { "node_modules": true, "dist": true, "dist-single": true, "src/assets/*.docx": true },
+  "files.associations": { ".env.local": "dotenv", ".env.example": "dotenv" }
+}

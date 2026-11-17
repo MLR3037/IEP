@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "dev server", "type": "npm", "script": "dev", "isBackground": true,
+      "problemMatcher": { "owner": "vite", "pattern": { "regexp": "^$" },
+        "background": { "activeBegins": true, "beginsPattern": "VITE", "endsPattern": "Local:" } } },
+    { "label": "build", "type": "npm", "script": "build", "group": { "kind": "build", "isDefault": true } },
+    { "label": "build single-file demo", "type": "npm", "script": "build:single" },
+    { "label": "test Word generation", "type": "npm", "script": "test:docx" }
+  ]
+}
